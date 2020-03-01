@@ -1,0 +1,206 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('assets/fonts/Lato/Lato-Black.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Lato Light';
+    src: url('assets/fonts/Lato/Lato-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Lato Regular';
+    src: url('assets/fonts/Lato/Lato-Regular.ttf');
+  }
+
+/* STYLE */
+
+html, body, a{
+    margin: auto;
+    max-width: 1020px;
+    text-decoration: none;
+}
+
+h2, h4 {
+    font-family: 'Lato Black';
+}
+
+.dark {
+    height: 864px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+
+.dark h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 59px;
+    padding-left: 40px;
+    font-size: 31.28px;
+    letter-spacing: -0.85px;
+    color: #666d89;
+}
+
+.paragraph1 {
+    margin-bottom: 1px;
+    padding-top: 3px;
+    padding-left: 40px;
+    font-family: 'Lato Light';
+    font-size: 18px;
+    color: #767e9e;
+}
+
+.navbar {
+    margin-bottom: 14px;
+    margin-left: 1px;
+}
+
+a:hover {
+    color: #dedede;
+}
+
+.design1:hover {
+    border: 1px solid #dedede;
+}
+
+.design2:hover {
+    border: 1px solid #dedede;
+}
+
+.design3:hover {
+    border: 1px solid #dedede;
+}
+
+.design4:hover {
+    border: 1px solid #dedede;
+}
+
+.list1, .list2, .list4 {
+    display: inline;
+    padding-right: 8px;
+    list-style-type: none;
+    font-family: 'Lato Regular';
+    font-size: 12px;
+}
+
+.list3 {
+    display: inline;
+    padding-right: 7px;
+    list-style-type: none;
+    font-family: 'Lato Regular';
+    font-size: 12px;
+}
+
+.design1 {
+    color: #767e9e;
+    padding: 2px 6px 3px 7px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+}
+
+.design2 {
+    color: #767e9e;
+    padding: 2px 6px 3px 6px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+}
+
+.design3 {
+    color: #767e9e;
+    padding: 2px 6px 3px 5px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+}
+
+.design4 {
+    color: #767e9e;
+    padding: 2px 5px 3px 6px;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+}
+
+.images-columns {
+    display: flex;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+
+.top-images {
+    padding: 6px 10px 8px 10px;
+}
+
+.images {
+    padding: 8px 10px;
+}
+
+.light {
+    height: 726px;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+}
+
+.light h2 {
+    margin: 0px;
+    padding-top: 57px;
+    padding-left: 40px;
+    font-size: 31.28px;
+    letter-spacing: -0.85px;
+    color: #666d89;
+}
+
+.paragraph2 {    
+    text-align: justify;
+    font-family: 'Lato Light';
+    margin-bottom: 1px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+}
+
+.photos {
+    display: flex;
+    padding: 34px 30px;
+}
+
+.adam {
+    padding: 10px 9px 10px 10px;
+}
+
+.desmond {
+    padding: 10px;
+}
+
+.scolara {
+    padding: 10px 10px 10px 11px;
+}
+
+.light h4 {
+    margin-top: 11px;
+    margin-bottom: -4px;
+    color: #666d89;
+    font-size: 18px;
+}
+
+.paragraph3 {
+    padding-bottom: 12px;
+    text-align: justify;
+    font-family: 'Lato Regular';
+    font-size: 12px;
+    color: #767e9e;
+    line-height: 21px;
+}
+
+.socials {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.socials:hover {
+    width: 20%;
+    height: 20%;
+}
